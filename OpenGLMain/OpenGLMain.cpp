@@ -2,10 +2,19 @@
 //
 
 #include "stdafx.h"
-
+#include <iostream>
+using namespace std;
 
 int main()
 {
-    return 0;
+	cout << "Hello World!";
+	
+	char str[50];
+
+	cin >> str;
+    
+	
+	
+	return EXIT_SUCCESS;
 }
 
