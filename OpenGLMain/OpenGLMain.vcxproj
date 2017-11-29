@@ -71,8 +71,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\rgsch\Desktop\GLADinclude\KHR;C:\Users\rgsch\Desktop\GLADinclude\glad;C:\Users\rgsch\Desktop\GLFWinclude\GLFW;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\rgsch\Desktop\GLFWlib-vc2015;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\rgsch\Desktop\GLADinclude\KHR;C:\Users\rgsch\Desktop\GLADinclude\glad;C:\Users\rgsch\Desktop\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\rgsch\Desktop\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
